@@ -14,6 +14,7 @@ This stock app is responsible for fecthing stocks from polygon api and then upda
 # Steps to run the app
 - Run the backend.php file first which is used to fetch the data of stocks from the polyugon api ( php backend.php )
 - Then run the node file so that after certain amount of time which is unique to each stock the price gets updated. ( node updateStock.js )
+- First run npm install to make sure that the required dependencies are installed on your system ( npm install )
 - Finally we execute the react file for the frontend use ( npm start )
 - Also make sure that the stock_data.json file is already created so that the file gets updated with the data
 
